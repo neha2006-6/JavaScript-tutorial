@@ -44,3 +44,5 @@ const tea=100;
 tea <=80 ? console.log("less than 90"):console.log("greater than 90")
 
 
+
+
