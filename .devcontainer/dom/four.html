@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+</style>
+<body >
+    <ul class="language">
+        <li>java</li>
+    </ul>
+</body>
+<script>
+function addlang(lname)
+{
+    const li=document.createElement('li');
+    li.innerHTML=`${lname}`
+    document.querySelector('.language').appendChild(li)
+
+}
+addlang("typescript")
+function optimal(lname){
+    const li=document.createElement('li');
+    li.appendChild(document.createTextNode(lname))
+    document.querySelector('.language').appendChild(li)
+
+}
+optimal("goo");
+///editttttttttttttttt
+
+const se=document.querySelector("li")
+console.log(se);
+const newli=document.createElement('li')
+newli.textContent="jaii"
+se.replaceWith(newli)
+
+//edit
+const secli=document.querySelector('liii')
+secli.outerHTML='<li>tsdghbn</li>'
+
+//remove
+const last=document.querySelector('ki')
+last.remove()
+
+
+
+
+</script>
+</html>
